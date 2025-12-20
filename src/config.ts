@@ -48,7 +48,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.About,
 		{
 			name: "GitHub",
-			url: "https://github.com/MoScenix",
+			url: "https://github.com/MoScenix/MoScenix.github.io",
 			// 内部链接不需要包含 base path，会自动添加
 			external: true, // 显示外部链接图标，并在新标签页中打开
 		},
