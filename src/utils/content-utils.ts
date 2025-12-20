@@ -8,6 +8,10 @@ async function getRawSortedPosts() {
 	const allBlogPosts = await getCollection("posts", ({ data }) => {
 		return import.meta.env.PROD ? data.draft !== true : true;
 	});
+	for (const p of allBlogPosts) {
+  		if (p.data.category === null) p.data.category = "Uncategorized";
+	}
+
 
 	const sorted = allBlogPosts.sort((a, b) => {
 		const dateA = new Date(a.data.published);
