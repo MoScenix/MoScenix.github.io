@@ -1,9 +1,23 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
 
-::github{repo="saicaca/fuwari"}
+这里是 **MoScenix 的个人技术站点**。
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+本站主要用于记录 **ACM 算法训练**、**前端与后端开发** 相关的学习笔记、题解总结以及一些实践过程中的思考。  
+内容偏技术向，更新节奏不固定，但会尽量保证记录的完整性和可复用性。
+
+本站基于 **Astro** 构建，主题使用 **Fuwari**，以简洁、快速和良好的阅读体验为目标。
+
+---
+
+## 关于我
+
+我是 **MoScenix**，主要方向为：
+
+>-  **ACM / ICPC / 算法与数据结构**
+>-  **前端开发**（Web 技术栈）
+>-  **后端开发**（服务端 / 系统相关）
+
+平时以算法训练为主，辅以前后端工程实践。  
+喜欢把解决问题的过程和思路整理成文字，既是复盘，也方便之后查阅。
+
+---
