@@ -1,5 +1,5 @@
 <script lang="ts">
-  import LightDarkSwitch from "./LightDarkSwitch.svelte";
+import LightDarkSwitch from "./LightDarkSwitch.svelte";
 </script>
 
 <LightDarkSwitch />
