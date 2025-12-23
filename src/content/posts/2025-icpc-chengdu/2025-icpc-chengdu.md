@@ -2,7 +2,7 @@
 title: 2025年ICPC区域赛成都之旅
 published: 2025-10-26
 description: 蒟蒻的第一次 ICPC 区域赛
-tags: [ICPC, Demo]
+tags: [算法,ICPC, Demo]
 category: ACM
 draft: false
 ---
