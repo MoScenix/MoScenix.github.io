@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/demo-banner.jpg",
+		src: "assets/images/banner.jpg",
 		// 图片路径：相对于 /src 目录；如果以 '/' 开头，则相对于 /public 目录
 		position: "center",
 		// 等同于 CSS 的 object-position，仅支持 'top'、'center'、'bottom'，默认 'center'
@@ -56,7 +56,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.jpg",
+	avatar: "assets/images/avatar.jpg",
 	// 图片路径：相对于 /src 目录；如果以 '/' 开头，则相对于 /public 目录
 	name: "MoScenix",
 	bio: "Life is code , I will debug it",
