@@ -29,12 +29,14 @@ draft: false
   * HTTP 方法
   * `@RequestMapping` 条件
 * 查找匹配的 Handler
+
 **返回内容：**
 
 * `HandlerExecutionChain`
 
   * `Handler`（通常是 Controller 方法）
   * `HandlerInterceptor` (SpringMVC拦截器)列表
+
 **说明：**
 
 * HandlerMapping **只做匹配**
@@ -121,6 +123,7 @@ public class HelloController {
 **传入内容：**
 * Model 数据(`Controller`返回的`ModelAndView`对象里的`Model`数据)
 * `View`对象
+
 **发生的事情：**
 
 * 将 Model 数据填充到 request 域
