@@ -14,6 +14,16 @@ enum I18nKey {
 	uncategorized = "uncategorized",
 	noTags = "noTags",
 
+	friends = "friends",
+	friendsSubtitle = "friendsSubtitle",
+	friendsSearchPlaceholder = "friendsSearchPlaceholder",
+	friendsFilterAll = "friendsFilterAll",
+	friendsNoResults = "friendsNoResults",
+	friendsVisit = "friendsVisit",
+	friendsCopyLink = "friendsCopyLink",
+	friendsCopySuccess = "friendsCopySuccess",
+	friendsTags = "friendsTags",
+
 	wordCount = "wordCount",
 	wordsCount = "wordsCount",
 	minuteCount = "minuteCount",

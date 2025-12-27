@@ -32,12 +32,12 @@ export const siteConfig: SiteConfig = {
 		depth: 2, // 目录显示的最大标题层级，范围 1~3
 	},
 	favicon: [
-		// 留空则使用默认 favicon
-		// {
-		//   src: '/favicon/icon.png', // favicon 路径，相对于 /public 目录
-		//   theme: 'light',           //（可选）'light' 或 'dark'，用于浅色/深色模式不同图标
-		//   sizes: '32x32',           //（可选）favicon 尺寸
-		// }
+		//留空则使用默认 favicon
+		{
+		  src: '../src/assets/images/avatar.jpg', // favicon 路径，相对于 /public 目录
+		  theme: 'light',           //（可选）'light' 或 'dark'，用于浅色/深色模式不同图标
+		  sizes: '32x32',           //（可选）favicon 尺寸
+		}
 	],
 };
 
@@ -46,12 +46,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
-		{
-			name: "GitHub",
-			url: "https://github.com/MoScenix/MoScenix.github.io",
-			// 内部链接不需要包含 base path，会自动添加
-			external: true, // 显示外部链接图标，并在新标签页中打开
-		},
+		LinkPreset.Friends,
 	],
 };
 
@@ -90,3 +85,50 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 	// 请务必选择深色主题，因为当前博客主题仅支持深色背景
 	theme: "github-dark",
 };
+// 友情链接数据配置
+// 用于管理友情链接页面的数据
+
+export interface FriendItem {
+	id: number;
+	title: string;
+	imgurl: string;
+	desc: string;
+	siteurl: string;
+	tags: string[];
+}
+
+// 友情链接数据
+export const friendsData: FriendItem[] = [
+	{
+		id: 1,
+		title: "qiuqionglin",
+		imgurl: "https://avatars.githubusercontent.com/u/143500066?v=4",
+		desc: "哈工大硕士，XCPC爱好者",
+		siteurl: "https://qiuqionglin.github.io",
+		tags: ["Friends"]
+	},
+	{
+		id: 2,
+		title: "MoScenix",
+		imgurl: "https://avatars.githubusercontent.com/u/112241717?v=4",
+		desc: "UPC24 级的 ACM 社长",
+		siteurl: "https://blog.starlab.top/",
+		tags: ["Friends"]
+	}
+	
+];
+
+// 获取所有友情链接数据
+export function getFriendsList(): FriendItem[] {
+	return friendsData;
+}
+
+// 获取随机排序的友情链接数据
+export function getShuffledFriendsList(): FriendItem[] {
+	const shuffled = [...friendsData];
+	for (let i = shuffled.length - 1; i > 0; i--) {
+		const j = Math.floor(Math.random() * (i + 1));
+		[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+	}
+	return shuffled;
+}

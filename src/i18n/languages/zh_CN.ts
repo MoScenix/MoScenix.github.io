@@ -12,6 +12,16 @@ export const zh_CN: Translation = {
 	[Key.recentPosts]: "最新文章",
 
 	[Key.comments]: "评论",
+	[Key.friends]: "友链",
+	
+	[Key.friendsSubtitle]: "发现更多优秀网站",
+	[Key.friendsSearchPlaceholder]: "搜索友链名称或描述...",
+	[Key.friendsFilterAll]: "全部",
+	[Key.friendsNoResults]: "未找到匹配的友链",
+	[Key.friendsVisit]: "访问",
+	[Key.friendsCopyLink]: "复制链接",
+	[Key.friendsCopySuccess]: "已复制",
+	[Key.friendsTags]: "标签",
 
 	[Key.untitled]: "无标题",
 	[Key.uncategorized]: "未分类",
