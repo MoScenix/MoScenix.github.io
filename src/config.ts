@@ -34,7 +34,7 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		//留空则使用默认 favicon
 		{
-		  src: '../src/assets/images/avatar.jpg', // favicon 路径，相对于 /public 目录
+		  src: '/favicon/icon.jpg', // favicon 路径，相对于 /public 目录
 		  theme: 'light',           //（可选）'light' 或 'dark'，用于浅色/深色模式不同图标
 		  sizes: '32x32',           //（可选）favicon 尺寸
 		}
