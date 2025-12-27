@@ -109,7 +109,7 @@ export const friendsData: FriendItem[] = [
 	},
 	{
 		id: 2,
-		title: "MoScenix",
+		title: "Star",
 		imgurl: "https://avatars.githubusercontent.com/u/112241717?v=4",
 		desc: "UPC24 级的 ACM 社长",
 		siteurl: "https://blog.starlab.top/",
