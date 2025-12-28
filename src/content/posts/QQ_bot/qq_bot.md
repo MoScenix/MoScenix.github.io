@@ -134,3 +134,10 @@ http://你的IP:5140
 比如**AI**聊天就可以使用**chatluna**插件，大家可以自行探索。
 
 其他的框架和完整机器人在配置完**NapCat**之后，也可以直接控制**QQ**账号，一般都是**OneBot**协议。
+
+### 配置参考
+**NapCat** 的仓库地址：[https://github.com/NapNeko/NapCatQQ](https://github.com/NapNeko/NapCatQQ)
+
+**KoiShi** 的仓库地址：[https://github.com/koishijs/koishi](https://github.com/koishijs/koishi)
+
+觉得好用的话，请给个**Star**吧~。
