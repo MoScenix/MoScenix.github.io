@@ -78,11 +78,11 @@ http://你的IP:6099
 
 现在有非常多支持**OneBot**协议的QQbot和框架，这里以**KoiShi**为例。
 
-在**NapCat**的网络代理界面，根据所选的**QQbot**服务器类型创建对应的配置。
+在**NapCat**的网络代理界面，根据所选的**QQbot**服务器类型和代理地址创建对应的配置。
 
 ![](./napcat.png)
 
-如果使用**KoiShi**，把**docker-compose.yml**改为如下配置即可配置好**NapCat**和**KoiShi**
+如果使用**KoiShi**，把**docker-compose.yml**改为如下配置即可直接配置好**NapCat**和**KoiShi**，无需手动配置。
 ```yaml
 services:
   napcat:
