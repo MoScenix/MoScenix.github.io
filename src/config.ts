@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "",
 	lang: "zh_CN", // 站点语言代码，例如：'en'、'zh_CN'、'ja' 等
 	themeColor: {
-		hue: 70, // 主题色默认色相，范围 0~360，例如：红色 0、青绿色 200、青色 250、粉色 345
+		hue: 180, // 主题色默认色相，范围 0~360，例如：红色 0、青绿色 200、青色 250、粉色 345
 		fixed: false, // 是否隐藏主题颜色选择器（对访客）
 	},
 	banner: {
@@ -34,10 +34,10 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		//留空则使用默认 favicon
 		{
-		  src: '/favicon/icon.jpg', // favicon 路径，相对于 /public 目录
-		  theme: 'light',           //（可选）'light' 或 'dark'，用于浅色/深色模式不同图标
-		  sizes: '32x32',           //（可选）favicon 尺寸
-		}
+			src: "/favicon/icon.jpg", // favicon 路径，相对于 /public 目录
+			theme: "light", //（可选）'light' 或 'dark'，用于浅色/深色模式不同图标
+			sizes: "32x32", //（可选）favicon 尺寸
+		},
 	],
 };
 
@@ -105,7 +105,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://avatars.githubusercontent.com/u/143500066?v=4",
 		desc: "哈工大硕士，XCPC爱好者",
 		siteurl: "https://qiuqionglin.github.io",
-		tags: ["Friends"]
+		tags: ["Friends"],
 	},
 	{
 		id: 2,
@@ -113,9 +113,8 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://avatars.githubusercontent.com/u/112241717?v=4",
 		desc: "UPC24 级的 ACM 社长",
 		siteurl: "https://blog.starlab.top/",
-		tags: ["Friends"]
-	}
-	
+		tags: ["Friends"],
+	},
 ];
 
 // 获取所有友情链接数据
