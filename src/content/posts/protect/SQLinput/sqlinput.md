@@ -3,7 +3,7 @@ title: SQL注入原理及防范措施
 published: 2026-02-18
 description: 如何防范SQL注入
 tags: [SQL]
-category: 后端
+category: 后端开发
 draft: false
 ---
 
