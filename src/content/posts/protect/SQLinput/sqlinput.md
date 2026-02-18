@@ -14,7 +14,7 @@ draft: false
 ```sql
 SELECT * FROM users WHERE username = '${username}' LIMIT 1;
 ```
-现在假设入侵者输入的username是：**'**,程序会直接报错，被发现以后知道这里有一个漏洞
+现在假设入侵者输入的`username`是：`'`,程序会直接报错，被发现以后知道这里有一个漏洞
 
 现在入侵者就可以使用**SQL**语句为所欲为
 例如，现在**SQL**语句变成了
