@@ -2,7 +2,7 @@
 title: Möbius Inversion
 published: 2025-12-23
 description: 莫比乌斯反演算法介绍
-tags: [算法, Demo]
+tags: [算法]
 category: ACM
 draft: false
 ---
