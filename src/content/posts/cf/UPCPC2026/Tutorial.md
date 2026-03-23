@@ -3,7 +3,7 @@ title: UPCPC 2026 题解
 published: 2026-03-23
 description: UPCPC 2026 题解
 tags: [ACM]
-category: 算法
+category: ACM
 draft: false
 ---
 
